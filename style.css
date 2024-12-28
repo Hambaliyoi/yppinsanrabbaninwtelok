@@ -1,0 +1,220 @@
+/* Reset CSS dan body */
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    height: 1000px;
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+header {
+    position: sticky;
+    top:0;
+}
+
+/* Bar Atas */
+.top-bar {
+    background-color: #0063b3;
+    color: #ffffff;
+    padding: 10px 0;
+    height: 4%;
+    font-size: 14px;
+}
+
+.top-bar span {
+    color: #ffffff;
+}
+
+/* Header */
+header {
+  position: sticky;
+  top: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000a76;
+  padding: 5px;
+  color: rgb(0, 0, 0);
+  z-index: 99999;
+}
+
+header .logo {
+    display: inline-block;
+    text-align: center;
+}
+
+header .logo h1 {
+    font-family: Impact;
+    font-size: 20px;
+    color: #ffea01;
+    margin-left: 10px; /* Jarak antara logo dan teks */
+}
+
+.logo-img {
+    height: 50px; /* Sesuaikan ukuran logo */
+    width: 50px; /* Pertahankan rasio logo */
+}
+
+/* Navigasi Header */
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+header nav a:hover {
+    color: #0063b3;
+}
+
+
+/* Hero section */
+.hero-image img {
+    width: 100%;
+}
+nav a .icon {
+    width: 30px;
+    height: 30px;
+}
+.berita h1{
+    font-family:"Kaushan Script";
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 30px;
+    font-size: 32px;
+}
+.berita {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .berita h1 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .card {
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 70%;
+  }
+  
+  .card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 50%;
+  }
+  
+  .card-body {
+    padding: 15px;
+  }
+  
+  .card-title {
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .card-text {
+    color: #555555;
+  }
+
+.struktur {
+    text-align: center; /* Memusatkan gambar secara horizontal */
+    
+}
+
+.struktur img {
+    width: 90%; /* Mengatur lebar gambar menjadi 50% dari elemen induknya */
+    height: auto; /* Mempertahankan rasio aspek gambar */
+}
+.struktur {
+  font-family:"Kaushan Script";
+  background-color: #f4f4f4;
+  padding-top: 10000px;
+  padding: 20px;
+  text-align: center;
+}
+
+  /* Contact Section */
+  .contact-section {
+    background-color: #000a76;
+    color: #ffffff;
+    padding: 50px 0;
+  }
+  
+  .contact-section .row {
+    align-items: center;
+  }
+  
+  .contact-section .col-md-4 img {
+    max-width: 150px;
+    margin: 0 auto;
+  }
+  
+  .contact-section .col-md-8 p {
+    margin-bottom: 1rem;
+  }
+  
+  .contact-section .col-md-8 i {
+    margin-right: 10px;
+  }
+
+  .contact-section .col-md-8 h3{
+    color: #ffea01;
+  }
+  
+  .contact-section .col-md-8 a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .contact-section .col-md-8 a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  footer p {
+    margin-bottom: 0;
+  }
+  
+  footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 5px;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsiveness */
+  @media (max-width: 768px) {
+    .contact-section .col-md-4,
+    .contact-section .col-md-8 {
+      flex: 1 0 100%;
+     }
+  }
+  
