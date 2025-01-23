@@ -97,17 +97,15 @@ body {
 
 .footer-container {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
   flex-wrap: wrap;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
+  max-width: 900px;
+  margin: 10 auto;
+  padding:  10px;
 }
 
 .logo-section {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .logo-section .logo {
@@ -126,6 +124,7 @@ body {
 .contact-section {
   max-width: 400px;
   margin-bottom: 20px;
+  padding-left: 30px;
 }
 
 .contact-section p {
@@ -166,11 +165,11 @@ body {
 .footer-bottom .social-media {
   margin-bottom: 10px;
 }
-  /* Responsiveness */
-  @media (max-width: 768px) {
-    .contact-section .col-md-4,
-    .contact-section .col-md-8 {
-      flex: 1 0 100%;
-     }
-  }
-  
+
+/* Responsiveness */
+@media (max-width: 768px) {
+  .contact-section .col-md-4,
+  .contact-section .col-md-8 {
+    flex: 1 0 100%;
+   }
+}
