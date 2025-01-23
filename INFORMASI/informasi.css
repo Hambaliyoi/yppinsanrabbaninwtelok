@@ -1,0 +1,215 @@
+/* Reset CSS dan body */
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+/* Container untuk keseluruhan */
+.container {
+    width: 90%; /* Lebar container agar tidak terlalu melebar */
+    max-width: 1200px; /* Batas maksimum lebar */
+    margin: 0 auto; /* Rata tengah container */
+    padding: 20px 0; /* Jarak vertikal di dalam container */
+}
+
+/* Gaya untuk gambar */
+.banner {
+    display: block; /* Agar gambar menjadi blok penuh */
+    width: 100%; /* Gambar menyesuaikan lebar container */
+    height: auto; /* Menjaga proporsi gambar */
+    margin-bottom: 10px; /* Jarak bawah antara gambar dan teks */
+    border-radius: 8px; /* Membulatkan sudut gambar */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Bayangan lembut */
+}
+
+/* Gaya untuk konten di bawah gambar */
+.content {
+    margin-bottom: 30px; /* Jarak antar blok gambar berikutnya */
+    text-align: center; /* Rata tengah teks */
+    font-family: Arial, sans-serif; /* Gaya font untuk teks */
+}
+
+.content h2 {
+    font-size: 20px; /* Ukuran teks judul */
+    color: #333; /* Warna teks judul */
+    margin-bottom: 10px; /* Jarak bawah antara judul dan paragraf */
+}
+
+.content p {
+    font-size: 16px; /* Ukuran teks paragraf */
+    color: #555; /* Warna teks paragraf */
+    line-height: 1.6; /* Menambahkan jarak antar baris */
+    margin: 5px 0; /* Jarak atas dan bawah paragraf */
+}
+
+.content {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+}
+.info-terbaru {
+    font-size: 24px; /* Ukuran font lebih besar */
+    font-weight: bold; /* Teks lebih tebal */
+    text-align: center; /* Rata tengah */
+    margin: 20px auto; /* Spasi di atas dan bawah teks */
+    padding: 10px 20px; /* Jarak di dalam elemen */
+    background-color: #f4f4f4; /* Latar belakang abu-abu terang */
+    color: #333; /* Warna teks */
+    border: 2px solid #ddd; /* Border ringan */
+    border-radius: 8px; /* Membulatkan sudut */
+    width: fit-content; /* Lebar menyesuaikan isi teks */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+}
+
+/* Bar Atas */
+.top-bar {
+    background-color: #0063b3;
+    color: #ffffff;
+    padding: 10px 0;
+    height: 4%;
+    font-size: 14px;
+}
+
+.top-bar span {
+    color: #ffffff;
+}
+
+/* Header */
+header {
+  position: sticky;
+  top: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000a76;
+  padding: 5px;
+  color: rgb(0, 0, 0);
+  z-index: 99999;
+}
+
+header .logo {
+    display: inline-block;
+    text-align: center;
+}
+
+header .logo h1 {
+    font-family: Impact;
+    font-size: 20px;
+    color: #ffea01;
+    margin-left: 10px; /* Jarak antara logo dan teks */
+}
+
+.logo-img {
+    height: 50px; /* Sesuaikan ukuran logo */
+    width: 50px; /* Pertahankan rasio logo */
+}
+
+/* Navigasi Header */
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+header nav a:hover {
+    color: #0063b3;
+}
+
+/* Contact Section */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  .footer {
+    background-color: #003366;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+    margin: 10 auto;
+    padding:  10px;
+  }
+  
+  .logo-section {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .logo-section .logo {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .logo-section h2 {
+    font-size: 1.5rem;
+    margin: 0;
+    color: #ffea01;
+    font-family: "Impact";
+  }
+  
+  .contact-section {
+    max-width: 400px;
+    margin-bottom: 20px;
+    padding-left: 30px;
+  }
+  
+  .contact-section p {
+    margin: 10px 0;
+    line-height: 1.5;
+    font-size: 0.9rem;
+  }
+  
+  .contact-section span {
+    margin-right: 10px;
+  }
+  
+  .social-media {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .social-media a img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.3s;
+  }
+  
+  .social-media a img:hover {
+    transform: scale(1.2);
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    font-size: 0.8rem;
+    margin-top: 20px;
+  }
+  
+  .footer-bottom .social-media {
+    margin-bottom: 10px;
+  }
+  
+  /* Responsiveness */
+  @media (max-width: 768px) {
+    .contact-section .col-md-4,
+    .contact-section .col-md-8 {
+      flex: 1 0 100%;
+     }
+  }
