@@ -62,6 +62,23 @@ header .logo h1 {
     height: 50px; /* Sesuaikan ukuran logo */
     width: 50px; /* Pertahankan rasio logo */
 }
+ /* Warna abu-abu transparan untuk tombol */
+ .btn-custom {
+    background-color: rgba(108, 117, 125, 0.7); /* Abu-abu dengan transparansi */
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    transition: 0.3s;
+}
+
+.btn-custom:hover {
+    background-color: rgba(90, 98, 104, 0.9); /* Warna lebih gelap saat hover */
+    color: white;
+}
 
 /* Navigasi Header */
 header nav a {
@@ -247,4 +264,116 @@ nav a .icon {
       flex: 1 0 100%;
      }
   }
+  /* Tablet (lebar maksimum 1024px) */
+@media screen and (max-width: 1024px) {
+    .card {
+      width: 90%;
+    }
+  
+    .struktur img {
+      width: 100%;
+    }
+  
+    header nav a {
+      margin: 0 5px;
+      font-size: 14px;
+    }
+  
+    .btn-custom {
+      padding: 10px 20px;
+      font-size: 16px;
+    }
+  
+    .logo-section h2 {
+      font-size: 1.2rem;
+    }
+  }
+  
+  /* HP / Mobile (lebar maksimum 768px) */
+  @media screen and (max-width: 768px) {
+    header {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 10px;
+    }
+  
+    header nav {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    header nav a {
+      margin: 5px 0;
+      font-size: 14px;
+    }
+  
+    .top-bar {
+      font-size: 12px;
+      padding: 8px 0;
+    }
+  
+    .hero-image img {
+      height: auto;
+    }
+  
+    .card {
+      width: 100%;
+      margin: 10px auto;
+    }
+  
+    .card-img-top {
+      width: 100%;
+      height: auto;
+    }
+  
+    .footer-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .contact-section {
+      padding-left: 0;
+      text-align: center;
+    }
+  
+    .btn-custom {
+      padding: 10px 15px;
+      font-size: 14px;
+    }
+  
+    .logo-img {
+      height: 40px;
+      width: 40px;
+    }
+  
+    .struktur {
+      padding-top: 20px; /* Ganti dari 10000px yang bikin aneh di mobile */
+    }
+  }
+  
+  /* HP kecil (lebar maksimum 480px) */
+  @media screen and (max-width: 480px) {
+    .card-title {
+      font-size: 16px;
+    }
+  
+    .card-text {
+      font-size: 14px;
+    }
+  
+    .berita h1 {
+      font-size: 24px;
+    }
+  
+    .struktur img {
+      width: 100%;
+    }
+  
+    .btn-custom {
+      width: 100%;
+      text-align: center;
+    }
+  }
+  
   
